@@ -5,14 +5,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1793204445761"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1793204445761">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1793208446574"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1793208446574">
 	</head>
 	<body>
 		<div class="wrapper">
 			<header data-fls-header="" class="header">
 				<div class="header__container">
-					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+					<div class="header__menu menu">
+						<a href="#" class="header__logo">
+							<img src="./assets/img/logo.svg" alt="logo">
+						</a>
+						<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+							<span></span>
+						</button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link">Home</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">About</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Style Guide</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Licensing</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Instructions</a>
+								</li>
+							</ul>
+						</nav>
+						<a data-fls-button="" href="#" class="button">contact us</a>
+					</div>
 				</div>
 			</header>
 			<main class="page page--index">
